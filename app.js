@@ -54,7 +54,8 @@ app.get("/", function (req, res) {
   res.render("index", {});
 });
 
-app.listen(5000 || process.env.PORT, () => {
-  //Part 1:# point 5: server ready on 3000 changed to 5000
-  console.log("Server Ready on 5000");
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+  console.log(`Server Ready on ${PORT}`); //#5 Part 1
 });
