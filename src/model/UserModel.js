@@ -1,7 +1,7 @@
 //Part 2:# point 10: created a user schema for new user to be added to the database
 const mongoose = require("mongoose");
 mongoose.connect(
-  "mongodb+srv://hemanthvinod:mongodbatlas@123@cluster0.edwg9.mongodb.net/Library",
+  "mongodb+srv://hemanthvinodcr7:mongoatlas123@cluster0.edwg9.mongodb.net/Library",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
